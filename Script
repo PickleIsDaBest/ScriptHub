@@ -1,0 +1,193 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Dababy = Instance.new("Frame")
+local raycodex = Instance.new("TextButton")
+local Arctic = Instance.new("TextButton")
+local Crycen = Instance.new("TextButton")
+local SpaveWare = Instance.new("TextButton")
+local Faded = Instance.new("TextButton")
+local Swagmode = Instance.new("TextButton")
+local Crash = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local TextLabel = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Dababy.Name = "Dababy"
+Dababy.Parent = ScreenGui
+Dababy.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Dababy.BorderColor3 = Color3.fromRGB(53, 53, 53)
+Dababy.BorderSizePixel = 16
+Dababy.Position = UDim2.new(0.28403765, 0, 0.0997229889, 0)
+Dababy.Size = UDim2.new(0, 406, 0, 437)
+
+raycodex.Name = "raycodex"
+raycodex.Parent = Dababy
+raycodex.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+raycodex.Position = UDim2.new(0.622986138, 0, 0.763842881, 0)
+raycodex.Size = UDim2.new(0, 152, 0, 40)
+raycodex.Font = Enum.Font.SourceSans
+raycodex.Text = "RayCodeX"
+raycodex.TextColor3 = Color3.fromRGB(0, 0, 0)
+raycodex.TextScaled = true
+raycodex.TextSize = 37.000
+raycodex.TextWrapped = true
+raycodex.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/RayCodex/main/Script"))()
+end)
+
+Arctic.Name = "KFC"
+Arctic.Parent = Dababy
+Arctic.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Arctic.Position = UDim2.new(0.625449181, 0, 0.58274591, 0)
+Arctic.Size = UDim2.new(0, 152, 0, 40)
+Arctic.Font = Enum.Font.SourceSans
+Arctic.Text = "KFC"
+Arctic.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arctic.TextScaled = true
+Arctic.TextSize = 37.000
+Arctic.TextWrapped = true
+Arctic.MouseButton1Down:connect(function()
+	print("Fixing fast")
+end)
+
+Crycen.Name = "Crycen"
+Crycen.Parent = Dababy
+Crycen.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Crycen.Position = UDim2.new(0, 0, 0.763842881, 0)
+Crycen.Size = UDim2.new(0, 152, 0, 40)
+Crycen.Font = Enum.Font.SourceSans
+Crycen.Text = "CrystalCentral"
+Crycen.TextColor3 = Color3.fromRGB(0, 0, 0)
+Crycen.TextScaled = true
+Crycen.TextSize = 37.000
+Crycen.TextWrapped = true
+Crycen.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/CrystalCentral/main/Main"))()
+end)
+
+SpaveWare.Name = "SpaceWare"
+SpaveWare.Parent = Dababy
+SpaveWare.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+SpaveWare.Position = UDim2.new(0, 0, 0.578169227, 0)
+SpaveWare.Size = UDim2.new(0, 152, 0, 42)
+SpaveWare.Font = Enum.Font.SourceSans
+SpaveWare.Text = "SpaceWare"
+SpaveWare.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpaveWare.TextScaled = true
+SpaveWare.TextSize = 37.000
+SpaveWare.TextWrapped = true
+SpaveWare.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/Commands/main/Main"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Maxiiiiiiiiiiiiiiiiiiiiiii/spacewarelol/main/spaceware"))()
+	end)
+
+Faded.Name = "Faded"
+Faded.Parent = Dababy
+Faded.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Faded.Position = UDim2.new(0, 0, 0.413248092, 0)
+Faded.Size = UDim2.new(0, 152, 0, 40)
+Faded.Font = Enum.Font.SourceSans
+Faded.Text = "Faded"
+Faded.TextColor3 = Color3.fromRGB(0, 0, 0)
+Faded.TextScaled = true
+Faded.TextSize = 37.000
+Faded.TextWrapped = true
+Faded.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/Faded/main/Script", true))()
+end)
+
+Swagmode.Name = "Swagmode"
+Swagmode.Parent = Dababy
+Swagmode.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Swagmode.Position = UDim2.new(0.622986138, 0, 0.413248092, 0)
+Swagmode.Size = UDim2.new(0, 152, 0, 40)
+Swagmode.Font = Enum.Font.SourceSans
+Swagmode.Text = "SwagMode"
+Swagmode.TextColor3 = Color3.fromRGB(0, 0, 0)
+Swagmode.TextScaled = true
+Swagmode.TextSize = 37.000
+Swagmode.TextWrapped = true
+Swagmode.MouseButton1Down:connect(function()
+	https://raw.githubusercontent.com/PickleIsDaBest/swagmode/main/swagmain
+end)
+
+Crash.Name = "Crash"
+Crash.Parent = Dababy
+Crash.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Crash.Position = UDim2.new(0.622986138, 0, 0.247538552, 0)
+Crash.Size = UDim2.new(0, 152, 0, 40)
+Crash.Font = Enum.Font.SourceSans
+Crash.Text = "Crash"
+Crash.TextColor3 = Color3.fromRGB(0, 0, 0)
+Crash.TextScaled = true
+Crash.TextSize = 37.000
+Crash.TextWrapped = true
+Crash.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
+end)
+
+Fly.Name = "Fly"
+Fly.Parent = Dababy
+Fly.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Fly.Position = UDim2.new(0, 0, 0.247538552, 0)
+Fly.Size = UDim2.new(0, 152, 0, 40)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextScaled = true
+Fly.TextSize = 37.000
+Fly.TextWrapped = true
+
+TextLabel.Name = "TextLabel"
+TextLabel.Parent = Dababy
+TextLabel.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel.Position = UDim2.new(0.280963004, 0, 0.93767935, 0)
+TextLabel.Size = UDim2.new(0, 150, 0, 27)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "discord.gg/cfWBuzd9Z5"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 37.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Dababy
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_2.BorderColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_2.Position = UDim2.new(0.0526501909, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 362, 0, 96)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Astroo"
+TextLabel_2.TextColor3 = Color3.fromRGB(125, 125, 125)
+TextLabel_2.TextSize = 84.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(65, 15, 61)
+TextLabel_2.TextStrokeTransparency = 0.000
+TextLabel_2.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Dababy
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Close.Position = UDim2.new(0.940903902, 0, -0.000963509083, 0)
+Close.Size = UDim2.new(0, 22, 0, 22)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 28.000
+Close.TextWrapped = true
+
+open.Name = "open"
+open.Parent = ScreenGui
+open.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+open.Position = UDim2.new(0, 0, 0.507839322, 0)
+open.Size = UDim2.new(0, 62, 0, 26)
+open.Font = Enum.Font.SourceSans
+open.Text = "open"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
